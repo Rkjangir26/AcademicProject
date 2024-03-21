@@ -1,0 +1,246 @@
+/* styles.css */
+
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styles */
+header {
+    background-color: rgb(255, 255, 255);
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    
+}
+
+header h1 {
+    font-size: .5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+.const{
+    display: flex;
+    align-items:center;
+    margin-top: 100px;
+    font-weight: bold;
+
+    
+    
+}
+
+.Corner{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-left: 61px;
+    margin-right: -171px;
+    align-items:center;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+/* Navigation menu styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-evenly;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem 0;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav li {
+    margin-right: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #1c00f4;
+}
+#doubt{
+    text-align: center;
+    margin-top: 260px;
+}
+
+
+
+/* Main section styles */
+section {
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+#dep{
+    margin-top: 200px;
+}
+.departments{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+
+   
+
+#png1:hover {
+    background-color: rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png2:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;;
+    
+}#png3:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png4:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png5:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png6:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png7:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}#png8:hover {
+    background-color:rgb(249, 247, 245);
+    color: #1c00f4;
+    cursor:pointer;
+    
+}
+/* .section1{
+    display: flex;
+    font-weight: bold;
+    margin-top: 100px;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+}
+.section2{
+    display: flex;
+    margin-top: 100px;
+    font-weight: bold;
+    justify-content: center;
+    border: 2px bold;
+    justify-content: space-evenly;
+} */
+
+/* Faculty member styles */
+.faculty-member {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.faculty-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.faculty-member h3 {
+    font-size: 1.2rem;
+}
+
+/* Footer styles */
+ footer {
+    text-align: center;
+    color: #333;
+    padding: 1rem 0;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+    font-weight: bold;
+}
+
+#logo{
+    align-items:center;
+    height:max-content;
+}
+
+#Copyright{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 150px;
+} 
+
+
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+}
+/* For desktop: */
+/* .container {
+    width: 75%;
+  }
+  
+  header, nav, section, footer {
+    padding: 1em;
+  }
+   */
+  /* For tablets: */
+  /* @media (max-width: 768px) {
+    header, nav, section, footer {
+      padding: 0;
+    }
+  } */
+  
+  /* For mobile phones: */
+  /* @media (max-width: 480px) {
+    .container {
+      width: 100%;
+    }
+  } */
