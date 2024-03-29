@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Academic Website</title>
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+
+</head>
+<body>
+    <header>
+        <h2>ACADEMIA</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#faculty">Faculty</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#login">Login</a></li>
+            <li><a href="#Sign up">Sign up</a></li>
+        </ul>
+    </nav>
+    <!-- Existing content here -->
+    
+    <div class="const">
+
+        <div class="image"><img src="/images/student.png" alt="College Student Studying" width="600">
+        </div>
+        <div id="research">
+            <h2><div><h2>For every student,<br>every course. <br>Real results</h2></div></h2>
+            <br>
+            <p>We are the one who provides students and teachers an platform where <br>they can do their academic stuffs</p>
+        </div>
+        </div>
+        
+
+        <div class="Corner">
+        <div>
+            <div>
+                <h2>Teacher Corner</h2>
+                <img src="" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>Notes</li>
+                    <li>Assignments</li>
+                    <li>Question Papers</li>
+                    <li>Short Notes</li>
+                </ul>
+            </div>
+        </div>
+         
+        <div>
+            <div>
+                <h2>Students Corner</h2>
+                <img src="" alt="">
+            </div>
+            <div>
+                <ul><li>Assignments Submission</li>
+                    <li>Quiz Score</li>
+                    <li>Daily Pratice </li>
+                    <li>Short Notes</li>
+                </ul>
+            </div>
+        </div>
+        <div class="image"><img src="/images/rk.png" alt="" width="600">
+        </div>
+       
+
+        </div>
+        <h2 id="dep">Departments</h2> 
+
+       
+
+        <div class="departments">
+            
+            <div class="section1"> 
+                <div>
+                    <div><img src="/images/cs.png" alt=""height ="60px"></div>
+                       <div id="png1"> Computer Science</div>
+                </div><br><br><br>
+
+               <div>
+                <div><img src="/images/math.png" alt=""height ="60px"></div>
+                   <div id="png2"> Mathmatics</div>
+               </div>
+
+              
+
+            </div> 
+            <div class="section2"> 
+                <div>
+                    <div><img src="/images/physics.png" alt=""height ="60px"></div>
+                       <div  id="png3"> Physics</div>
+                   </div><br><br><br>
+    
+                   <div>
+                    <div><img src="/images/commerce.png" alt=""height ="60px"></div>
+                       <div id="png4"> Commerce</div>
+                   </div>
+               
+            </div> 
+
+            
+            <div class="section3"> 
+                <div>
+                    <div><img src="/images/chemistry.png" alt=""height ="60px"></div>
+                       <div id="png5"> Chemistry</div>
+                   </div><br><br><br>
+
+               <div>
+                <div><img src="/images/eng.png" alt=""height ="60px"></div>
+                   <div id="png6"> English</div>
+               </div>
+
+               
+
+            </div>
+            <div class="section4"> 
+                <div>
+                    <div><img src="/images/pol.png" alt=""height ="60px"></div>
+                       <div  id="png7"> Political Science</div>
+                   </div><br><br><br>
+    
+                   <div  id="png8">
+                    <div><img src="/images/eco.png" alt=""height ="60px"></div>
+                       <div>Economics</div>
+                   </div>
+                
+
+            </div>
+            
+         </div>
+         <!-- Registration Form -->
+        <div class="Form">
+            <h1>Login</h1>
+            <form action="/login" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                <input type="submit" value="Login">
+            </form>
+        
+            <h1>Registration</h1>
+            <form action="/register" method="post">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                <label for="role">Role:</label>
+                <select id="role" name="role">
+                  <option value="10">Student</option>
+                  <option value="30">Faculty</option>
+                </select><br>
+                <!-- Student-specific fields -->
+                <div id="studentFields" style="display: none;">
+                  <label for="firstname">First Name:</label>
+                  <input type="text" id="firstname" name="firstname" required><br>
+                  <label for="lastname">Last Name:</label>
+                  <input type="text" id="lastname" name="lastname" required><br>
+                  <label for="rollno">Roll Number:</label>
+                  <input type="text" id="rollno" name="rollno" required><br>
+                  <label for="examinationRoll">Examination Roll Number:</label>
+                  <input type="text" id="examinationRoll" name="examinationRoll" required><br>
+                  <label for="mobile">Mobile Number:</label>
+                  <input type="text" id="mobile" name="mobile" required><br>
+                  <label for="address">Address:</label>
+                  <input type="text" id="address" name="address" required><br>
+                  <label for="collegeName">College Name:</label>
+                  <input type="text" id="collegeName" name="collegeName" required><br>
+                  <label for="fatherName">Father's Name:</label>
+                  <input type="text" id="fatherName" name="fatherName" required><br>
+                  <label for="motherName">Mother's Name:</label>
+                  <input type="text" id="motherName" name="motherName" required><br>
+                  <label for="course">Course:</label>
+                  <input type="text" id="course" name="course" required><br>
+                  <label for="email">Email:</label>
+                  <input type="email" id="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$" required>
+   <br>
+   
+                </div> 
+                <!-- Faculty-specific fields -->
+            <div id="facultyFields" style="display: none;">
+              <label for="teachername">Teacher Name:</label>
+              <input type="text" id="teachername" name="teachername" required><br>
+              <label for="department">Department:</label>
+              <input type="text" id="department" name="department" required><br>
+              <label for="subjects">Subjects:</label>
+              <input type="text" id="subjects" name="subjects" required><br>
+             </div>
+             
+                <input type="submit" value="Register">
+             </form>
+        </div>
+
+
+         <div class="card">
+            <div class="card-container">
+                <div class="card-face front-face">
+                   
+                    <img src="/images/cs.png" alt="">
+                    <h2> Sujata mam</h2>
+                    <h3> Operating sytem </h3>
+
+                </div>
+                <div class="card-face back-face ">
+                    <div class="container_about">
+                        <h2> About me</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                             Nisi necessitatibus aliquam ad cumque aperiam ab fuga,
+                              minus
+                         </p>
+                         <div class="rows">
+                            <a href="" target ="_blank"> <i class="bi fb bi -facebook"></i></a>
+                            <a href="" target ="_blank"> <i class="bi fb bi -facebook"></i></a>
+                            <a href="" target ="_blank"> <i class="bi fb bi -facebook"></i></a>
+                         </div>
+                    </div>
+                </div>
+                
+            </div>
+    
+        </div> 
+    <footer id="footer">
+        <div>
+       
+             <h2>ACADEMIA</h2>
+             <h4>ONLINE EDUCATION AND LEARNING</h4>
+            </div>
+ 
+         
+         <div>
+             <h3>Explore</h3>
+             <ul>
+                 <li>About us</li>
+                 <li>Services</li>
+                 <li>contact us</li>
+                 <li>Blog</li>
+ 
+             </ul>
+         </div>
+ 
+ 
+         <div>
+             <h3>Explore</h3>
+             <ul>
+                 <li>Terms & condition </li>
+                 <li>Privacy</li>
+                 <li>Feedbacks</li>
+             
+ 
+             </ul>
+             
+         </div>
+ 
+         <div>
+             <h2>Have a Questions?</h2>
+             <div>203 New Delhi,India</div>
+             <div>+91 000000003</div>
+             <div>info@academic.com</div>
+         </div>
+ 
+ 
+     </footer>
+ 
+     <div id="Copyright">
+         Copyright @2024 All right reserved | This is powered by Rkjangir pvt.ltd.
+     </div>
+   
+    
+
+    
+     <script>
+
+        //     // Get all input fields
+        //     const inputs = document.querySelectorAll('input');
+        
+        // // Add an 'input' event listener to each field
+        // inputs.forEach(input => {
+        //   input.addEventListener('input', function() {
+        //     // Check if the input value is valid
+        //     if (!this.checkValidity()) {
+        //       // If not, set a custom validation message
+        //       this.setCustomValidity('Invalid input');
+        //       this.reportValidity(); // This line will make the browser display the error message
+        //     } else {
+        //       // If it is, clear the custom validation message
+        //       this.setCustomValidity('');
+        //     }
+        //   });
+        // });
+        
+         document.getElementById('role').addEventListener('change', function() {
+            const studentFields = document.getElementById('studentFields');
+            const facultyFields = document.getElementById('facultyFields'); // Make sure you have an element with the id 'facultyFields' in your HTML
+            if (this.value === '10') {
+                studentFields.style.display = 'block';
+                facultyFields.style.display = 'none';
+                // Ensure all student fields are required
+                studentFields.querySelectorAll('input').forEach(input => input.required = true);
+                // Remove required attribute from faculty fields
+                facultyFields.querySelectorAll('input').forEach(input => input.required = false);
+            } else {
+                studentFields.style.display = 'none';
+                facultyFields.style.display = 'block';
+                // Remove required attribute from student fields
+                studentFields.querySelectorAll('input').forEach(input => input.required = false);
+                // Ensure all faculty fields are required
+                facultyFields.querySelectorAll('input').forEach(input => input.required = true);
+            }
+        });
+        
+        
+         </script>
+</body>
+</html>
